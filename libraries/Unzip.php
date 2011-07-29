@@ -92,7 +92,7 @@ class Unzip {
 			$folders = explode('/', $dirname);
 			$out_dn = $this->_target_dir . '/' . $dirname;
 
-			// Skip stuff in stupid folders
+			// Skip stuff in folders
 			if (in_array(current($folders), $this->_skip_dirs))
 			{
 				continue;
